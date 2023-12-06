@@ -1,13 +1,96 @@
 body {
-    background-color: aquamarine
-    
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-galaxia-realista_23-2148991322.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #lupa {
-    color: gray;
+    color: gray; 
+    padding-left: 8%;
 }
 
 .icono {
     width: 30px;
     height: 30px;
+    background-size: contain;
+
 }
+
+.IconoPerfil {
+    border-radius: 60px;
+    width: 30px;
+    height: 30px;
+}
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header ul li {
+    margin: 10px;
+    display: inline-block;
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#CajaDelBuscador {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    max-height: 44px;
+    max-width: 584px;
+    width: 538px;
+    border-radius: 10px;
+}
+
+#CajaDelBuscador input {
+    width: 400px;
+    outline: none;
+    border: none;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: #dfe1e5;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+#opciones {
+    display: flex;
+}
+
